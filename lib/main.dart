@@ -49,20 +49,32 @@ class MyApp extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Text("Nike Shoes",style: TextStyle(
-                    fontSize: 24,
-                  ),),
+                  Text(
+                    "Nike Shoes",
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
+                  ),
                 ],
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
-                children: [Text("45,000",style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20
-                ),),SizedBox(width: 50,), Text("55,000",style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 20,
-                ),)],
+                children: [
+                  Text(
+                    "45,000",
+                    style: TextStyle(color: Colors.black, fontSize: 20),
+                  ),
+                  SizedBox(
+                    width: 50,
+                  ),
+                  Text(
+                    "55,000",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 20,
+                    ),
+                  )
+                ],
               )
             ],
           ),
