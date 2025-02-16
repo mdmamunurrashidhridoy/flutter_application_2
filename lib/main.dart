@@ -5,9 +5,12 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Text("Flutter Row Lab"),
+        ),
         body: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 300,),
             Icon(
               size: 70,
               Icons.star_rounded
@@ -24,6 +27,13 @@ void main() {
               size: 70,
               Icons.star_rounded
             ),
+            // Text(
+            //   "Hridoy",
+            //   style: TextStyle(
+            //     color: Colors.amber,
+            //     fontSize: 23
+            //   ),
+            // ),
             Icon(
               size: 70,
               Icons.star_border
